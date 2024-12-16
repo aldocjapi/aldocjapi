@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -84,31 +83,49 @@
     <!-- fund navbar-->
   </header>
   <main>
-    <!-- Produktet, sherbime, artikuj,event -->
-    >
-    <!-- About -->
-    <section class="container-fluid my-5">
+    <section class="container my-5">
       <div class="row">
-        <div class="col-12 col-md-7 px-0">
-          <img src="images/london.jpg" class="img-fluid">
-
+        <div class="col-12 col-md-6-">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.3231677132544!2d19.812061275915!3d41.32358557130806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350313540c99c4b%3A0x7398d6f11582ba30!2sDominusoft%20Education!5e0!3m2!1sen!2s!4v1734361230668!5m2!1sen!2s"
+           style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <div class="col-12 col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="emri" class="form-label">emri</label>
+              <input type="text" class="form-control" id="emri">
 
-
-        <div class="col-12 col-md-5 d-flex justify-content-center align-items-center">
-          <div class="p-5">
-            <h1>About us</h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni velit doloremque quae, eum quo iusto
-              nesciunt
-              voluptas veritatis nobis, ipsam natus laboriosam nisi! Eos quis laborum repudiandae quasi facilis sunt?
-            </p>
-
-            <a href="about.html" class="btn btn-outline-primary">learn more</a>
-
-          </div>
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="mbiemri" class="form-label">mbiemri</label>
+              <input type="text" class="form-control" id="mbiemri">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="koment" class="form-label">koment</label>
+              <textarea id="koment" class="form-control"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
     </section>
-
   </main>
+
   <footer>
     <div class="container">
       <div class="row">
@@ -144,9 +161,9 @@
             <input type="submit" class="btn btn-outline-primary" value="send">
           </form>
         </div>
-<div class="col-12">
-  <p>Copyrights:<span id="year"></span></p>
-</div>
+        <div class="col-12">
+          <p>Copyrights:<span id="year"></span></p>
+        </div>
       </div>
     </div>
   </footer>
